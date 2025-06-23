@@ -1,10 +1,9 @@
+import { Pause, Play, RotateCcw } from 'lucide-react';
 import React from 'react';
-import { Play, Pause, RotateCcw } from 'lucide-react';
 import { useTimer } from '../../hooks/useTimer';
 
 const TimerControls: React.FC = () => {
-  const { isRunning, isPaused, startTimer, pauseTimer, resetTimer } =
-    useTimer();
+  const { isRunning, startTimer, pauseTimer, resetTimer } = useTimer();
 
   return (
     <div className='flex items-center justify-center space-x-4'>
