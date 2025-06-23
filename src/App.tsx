@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Navigation from './components/Layout/Navigation';
-import Timer from './components/Timer/Timer';
-import Settings from './components/Settings/Settings';
+import { useState } from 'react';
 import Analytics from './components/Analytics/Analytics';
 import History from './components/History/History';
+import Navigation from './components/Layout/Navigation';
+import Settings from './components/Settings/Settings';
+import Timer from './components/Timer/Timer';
 import type { AppView } from './types';
 
 function App() {
